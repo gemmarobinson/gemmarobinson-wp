@@ -1,0 +1,59 @@
+/* ------------------------------------
+	# IMPORTS
+-------------------------------------- */
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/animate.css/animate';
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/fontawesome';
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/regular';
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/solid';
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/light';
+@import 'node_modules/@fortawesome/fontawesome-pro/scss/brands';
+
+/* ------------------------------------
+	# 01-Settings
+-------------------------------------- */
+
+@import '01-Settings/variables';
+@import '01-Settings/reset';
+
+/* ------------------------------------
+	# 02-Tools
+-------------------------------------- */
+
+@import '02-Tools/color-mixin';
+
+/* ------------------------------------
+	# 03-Generic
+-------------------------------------- */
+
+@import '03-Generic/wp-core';
+@import '03-Generic/wp-login';
+
+/* ------------------------------------
+	# 04-Elements
+-------------------------------------- */
+
+@import '04-Elements/typography';
+@import '04-Elements/forms';
+
+/* ------------------------------------
+	# 05-Objects
+-------------------------------------- */
+
+// @import '05-Objects/example';
+
+/* ------------------------------------
+	# 06-COMPONENTS
+-------------------------------------- */
+
+@import '06-Components/header';
+@import '06-Components/footer';
+@import '06-Components/buttons';
+
+/* ------------------------------------
+	# 07-Utilities
+-------------------------------------- */
+
+@import '07-Utilities/accessibility';
+@import '07-Utilities/typography';
+@import '07-Utilities/backgrounds';

@@ -1,0 +1,28 @@
+/**
+ *
+ * Name: Backgrounds
+ * Description: 
+ *
+ */
+
+	.h-background-block {
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		background-position: center center !important;
+		position: relative;
+	}
+
+	.h-overlay {
+		left: 	0;
+		top: 	0;
+		right: 	0;
+		bottom: 0;
+		background-color: $overlay-background-colour;
+		position: absolute;
+		
+
+		&--gradient {
+			background-color: $overlay-background-colour;
+			background: $overlay-gradient-colour;
+		}
+	}

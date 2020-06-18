@@ -1,0 +1,64 @@
+/*----------------------------------------
+  # Colours
+----------------------------------------*/
+$colors: (
+    black: #000,
+    white: #fff,
+);
+// USAGE: color(black);
+
+/* ------------------------------------
+  # GENERAL
+-------------------------------------- */
+
+$font-weight-normal: 400;
+$font-weight-bolden: 600;
+
+// Required if using the background helpers
+$overlay-background-colour: rgba(0, 0, 0, 0.5);
+$overlay-gradient-colour: '{{ Linear RGBA Gradient }}';
+
+/*----------------------------------------
+  # Typography
+----------------------------------------*/
+
+$headings-font-family: helvetica, sans-serif;
+
+// H1
+$h1-font-size: 32px;
+$h1-line-height: 1.25;
+$h1-font-weight: 700;
+
+// H2
+$h2-font-size: 22px;
+$h2-line-height: 1.45;
+$h2-font-weight: 600;
+
+// h3
+$h3-font-size: 18px;
+$h3-line-height: 1.44;
+$h3-font-weight: 600;
+
+// h4
+$h4-font-size: 18px;
+$h4-line-height: 1.44;
+$h4-font-weight: 600;
+
+// h5
+$h5-font-size: 18px;
+$h5-line-height: 1.44;
+$h5-font-weight: 600;
+
+// h6
+$h6-font-size: 18px;
+$h6-line-height: 1.44;
+$h6-font-weight: 600;
+
+// Paragraph
+$paragraph-size: 16px;
+$paragraph-line-height: 1.56;
+$paragraph-color: #000;
+$paragraph-font-weight: 400;
+$paragraph-font-family: helvetica, sans-serif;
+
+$small-paragraph-size: 12px;

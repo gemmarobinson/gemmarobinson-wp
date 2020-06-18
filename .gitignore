@@ -1,0 +1,25 @@
+# Keep these files out of the repo
+public/wp-content/themes/*/node_modules/
+public/wp-content/themes/twenty*
+public/wp-content/themes/*/assets/dist/
+public/wp-content/themes/*/package-lock.json
+public/wp-content/themes/*/.env
+public/wp-content/themes/*/assets/webfonts/
+public/wp-content/upgrade/
+public/wp-content/cache/
+public/wp-content/uploads/
+public/wp-content/*.sql.gz
+public/sitemap.*
+public/readme.html
+public/license.txt
+public/wp-content/debug.log
+public/composer.lock
+public/vendor/
+public/.env
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
+*.vagrant/

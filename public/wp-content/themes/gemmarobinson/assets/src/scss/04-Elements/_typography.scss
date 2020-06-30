@@ -13,7 +13,8 @@ h6,
 .h6 {
     color: $headings-color;
     font-family: $headings-font-family;
-    margin: 0 0 15px 0;
+    margin: 0;
+    letter-spacing: 2px;
 }
 
 h1,
@@ -21,6 +22,10 @@ h1,
     font-size: $h1-font-size;
     line-height: $h1-line-height;
     font-weight: $h1-font-weight;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 40px;
+    }
 }
 
 h2,
@@ -28,6 +33,10 @@ h2,
     font-size: $h2-font-size;
     line-height: $h2-line-height;
     font-weight: $h2-font-weight;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 32px;
+    }
 }
 
 h3,

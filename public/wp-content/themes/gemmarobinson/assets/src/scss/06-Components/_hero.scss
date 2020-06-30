@@ -1,0 +1,39 @@
+.c-hero {
+    height: 100vh;
+    position: relative;
+    padding: 150px 0;
+
+    @include media-breakpoint-up(lg) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 65%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #44ccff;
+        z-index: 0;
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            top: 25vh;
+        }
+    }
+
+    &__mugshot {
+        border-radius: 100%;
+        background-color: color(white);
+        width: 350px;
+        max-width: 100%;
+        margin: 0 auto;
+
+        img {
+            border-radius: 100%;
+        }
+    }
+}

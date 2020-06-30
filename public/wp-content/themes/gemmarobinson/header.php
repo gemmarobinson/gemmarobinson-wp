@@ -8,7 +8,7 @@
 		<link rel="alternate" href="<?php echo get_home_url(); ?>" hreflang="en-gb" />
 		<link rel="shortcut icon" type="image/x-icon" href="<?php echo get_home_url(); ?>/favicon.ico">
 		<?php wp_head(); ?>
-		<?php echo sixth_google_analytics('XXXXXXXXXX'); ?>
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -18,21 +18,21 @@
 				<div class="row">
 					<div class="col-6">
 						<a href="<?php echo get_home_url(); ?>">
-							<img 
+							<!-- <img 
 								src="<?php echo get_image_path('logo.png'); ?>" 
 								alt="<?php echo get_bloginfo('name'); ?> logo"
-							/>
+							/> -->
 						</a>
 					</div>
 					<div class="col-6">
 						<?php
-							wp_nav_menu([
-								'menu'              => 'Main Menu',
-								'theme_location'    => 'Main Menu',
-								'container_id' 		=> 'main-menu',
-								'depth' 			=> 2,
-								'walker' 			=> new SixthStory_Walker()
-							]);
+							// wp_nav_menu([
+							// 	'menu'              => 'Main Menu',
+							// 	'theme_location'    => 'Main Menu',
+							// 	'container_id' 		=> 'main-menu',
+							// 	'depth' 			=> 2,
+							// 	'walker' 			=> new SixthStory_Walker()
+							// ]);
 						?>
 					</div>
 				</div>
